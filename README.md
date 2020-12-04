@@ -1,2 +1,2 @@
-# Pixel-Drawing
-SE Project
+# Etch-a-sketch
+A practice project

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pixel Drawing</title>
+        <meta charset='utf-8'/>
+        <link rel='stylesheet' type='text/css' href='Index.css'/>
+    </head>
+    <body>
+        <div id='mainDiv'>
+            <div id='container'></div>
+            <div id='palette'>
+                <button id='createNewGrid'>Create new grid</button>
+                <button id='clearGrid'>Clear grid</button>
+                <button id='randomBtn'>Random fill</button>
+                <label for='borderCheck'>
+                    <input id='borderCheck' type='checkbox'>Hide cell border</input>
+                </label>
+                <label for='noFill'>
+                    <input id='noFill' type='radio' name='fill'>Stop colour filling</input>
+                </label>
+                <label for='pickFill'>
+                    <input id='pickFill' type='radio' name='fill'>Pick your colour</input>
+                </label>
+                <label for='colourPick'>
+                    Colour: <input id='colourPick' type='color'></input>
+                </label>
+                <label for='rainbowFill'>
+                    <input id='rainbowFill' type='radio' name='fill'>Rainbow fill</input>
+                </label>
+                <label for='grayscale'>
+                    <input id='grayscale' type='radio' name='fill'>Grayscale</input>
+                </label>
+            </div>
+        </div>
+        <script src='main.js'></script>
+    </body>
+</html>
