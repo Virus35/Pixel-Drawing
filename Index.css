@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    line-height: 100%;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+.block{
+    padding: 0px;
+    margin: 0px;
+    background-color:#FFF;
+}
+#mainDiv{
+    display: flex;
+    background-color: #555;
+}
+#container{
+    flex-shrink:0;
+    order: 1;
+    margin: 5px;
+    background-color: #FFF;
+    border: 5px solid #222;
+    border-radius: 5px;
+}
+#palette{
+    background-color: #222;
+    color: #FFF;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-radius: 5px;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+button{
+    padding: 10px 0px;
+}
+#palette > *{
+    margin: 10px 0px;
+}
+label[for='colourPick']{
+    display: none;
+}
